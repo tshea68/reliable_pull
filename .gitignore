@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project outputs
+parts_runs/
+*.zip
+*.csv
+run_*.json
+overnight.log
+
+# Editor/OS (handy)
+.vscode/
+.DS_Store
+Thumbs.db
+
