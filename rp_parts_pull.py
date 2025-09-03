@@ -1,7 +1,3 @@
-# Create rp_parts_pull.py
-cat > rp_parts_pull.py <<'PY'
-#!/usr/bin/env python3
-# rp_parts_pull.py
 import os, sys, time, json, base64, argparse, zipfile, csv
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -235,3 +231,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+<<<<<<< HEAD
+=======
+PY
+>>>>>>> 3cd24fe (FTake bash out)
