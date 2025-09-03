@@ -235,13 +235,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-PY
-
-# Minimal requirements
-printf "requests\n" > requirements.txt
-
-# Make the script executable (optional)
-chmod +x rp_parts_pull.py
-
-# Show files
-ls -la
